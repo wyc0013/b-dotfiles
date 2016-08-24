@@ -9,7 +9,7 @@
 ## 安装方式
 - 首先clone到本地：
 ```
-git clone https://github.com/bbxytl/b-dotfiles.git
+git clone https://github.com/wyc0013/b-dotfiles.git
 cd b-dotfiles
 ./configure
 cd ~/mydotfiles/b-dotfiles
