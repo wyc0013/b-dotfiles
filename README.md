@@ -10,9 +10,7 @@
 - 首先clone到本地：
 ```
 git clone https://github.com/wyc0013/b-dotfiles.git
-cd b-dotfiles
-./configure
-cd ~/mydotfiles/b-dotfiles
+cd b-dotfiles&&./configure&&cd ~/mydotfiles/b-dotfiles
 ```
 - 分别安装，进入到各安装文件夹下，分别进行运行 `install-*.sh` 文件
 
