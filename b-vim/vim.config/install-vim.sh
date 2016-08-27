@@ -90,7 +90,7 @@ fi
 echo " Step 4: install vundle"
 if [ ! -e $vimdir/bundle/vundle ]; then
     echo "Installing Vundle"
-    git clone https://github.com/gmarik/vundle.git $vimpacks/bundle/vundle
+    git clone https://github.com/VundleVim/Vundle.vim.git $vimpacks/bundle/vundle
 else
     echo "Upgrde Vundle"
     cd "$vimdir/bundle/vundle" && git pull origin master
